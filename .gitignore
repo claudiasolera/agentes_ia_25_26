@@ -1,0 +1,18 @@
+# Gitignore sirve para indicar a git, qué dicheros debe de NO seguimiento
+# y por tanto no subir a github
+
+# ------- variables -------
+.env
+.DS_Store
+Thumbs.db
+
+# ------- dependecias -------
+node_modules/
+dist/
+build/
+
+# carpetas build
+/dist
+/build
+
+
