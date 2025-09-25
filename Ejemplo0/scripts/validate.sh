@@ -37,7 +37,7 @@ fi
 
 if command -v curl > /dev/null 2>&1 ;then
         CURL_VERSION=$(curl --version)
-        echo ";) Curl instalado correctamente; versión: $NODE_VERSION"
+        echo ";) Curl instalado correctamente; versión: $CURL_VERSION"
 else
         echo ":( No tienes instalado curl"
         exit 1
