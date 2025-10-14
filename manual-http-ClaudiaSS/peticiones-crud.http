@@ -24,7 +24,7 @@ GET {{apiUrl}}
 
 ###
 // Listar estudiante por ID
-GET {{apiUrl}}/1
+GET {{apiUrl}}/3
 
 
 ###
