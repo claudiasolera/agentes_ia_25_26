@@ -34,6 +34,9 @@
         - Aquí se muestran los headers que se han introducido por la consulta y los que muestra el resultado.
         ![cmd CREATE](images/TC-POST-2.png)
         - Aquí se muestra el body con los datos para crear el nuevo estudiante.
+    - Con REST Client:
+        ![cmd CREATE](images/RC-POST.png)
+        - Aquí se muestra la respuesta correspondiente a la petición 'Crear nuevo estudiante'. El codigo 201 significa que el estudiante se creó correctamente.
 
 ---
 
@@ -59,6 +62,10 @@
         ![cmd CREATE](images/TC-GET-all-2.png)
         ![cmd CREATE](images/TC-GET-all-3.png)
         - Aquí se muestra el resultado con la lista de todos los estudiantes.
+    - Con REST Client:
+        ![cmd CREATE](images/RC-READ-all-1.png)
+        ![cmd CREATE](images/RC-READ-all-2.png)
+        - Aquí se muestra la respuesta correspondiente a la petición 'Listar todos los estudiantes'.
 
 ---
 
@@ -82,7 +89,11 @@
         ![cmd CREATE](images/TC-GET-id-1.png)
         - Aquí se muestran los headers que se han introducido por la consulta y los que muestra el resultado.
         ![cmd CREATE](images/TC-GET-id-2.png)
-        - Aquí se muestra el resultado con la lista del estudiante con el id correspondiente introducido.
+        - Aquí se muestra el resultado con la lista del estudiante con el id 
+        correspondiente introducido.
+    - Con REST Client:
+        ![cmd CREATE](images/RC-READ-id.png)
+        - Aquí se muestra la respuesta correspondiente a la petición 'Listar estudiante por ID'.
 
 ---
 
@@ -120,7 +131,9 @@
         - Aquí se muestran los headers que se han introducido por la consulta y los que muestra el resultado.
         ![cmd CREATE](images/TC-PUT-2.png)
         - Aquí se muestra el resultado con el estudiante con id = 2 modificado.
-
+    - Con REST Client:
+        ![cmd CREATE](images/RC-UPDATE.png)
+        - Aquí se muestra la respuesta correspondiente a la petición 'Actualizar estudiante completo (PUT)'.
 
 ---
 
@@ -151,7 +164,9 @@
         - Aquí se muestran los headers que se han introducido por la consulta y los que muestra el resultado.
         ![cmd CREATE](images/TC-PATCH-2.png)
         - Aquí se muestra el resultado con el estudiante con id = 2 y el campo 'level' modificado.
-
+    - Con REST Client:
+        ![cmd CREATE](images/RC-PATCH.png)
+        - Aquí se muestra la respuesta correspondiente a la petición 'Actualizar campo específico'.
 
 ---
 
@@ -176,6 +191,9 @@
         - Aquí se muestra el resultado con el estudiante que se ha eliminado.
         ![cmd CREATE](images/TC-DELETE-2.png)
         - Aquí se muestran los headers que se han introducido por la consulta y los que muestra el resultado.
+    - Con REST Client:
+        ![cmd CREATE](images/RC-DELETE.png)
+        - Aquí se muestra la respuesta correspondiente a la petición 'Eliminar estudiante'.
 
 ---
 
