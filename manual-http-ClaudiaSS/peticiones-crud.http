@@ -1,0 +1,67 @@
+@baseUrl = http://localhost
+@port = 4000
+@apiUrl = {{baseUrl}}:{{port}}/students
+
+###
+// Crear nuevo estudiante
+POST {{apiUrl}}
+Content-Type: application/json
+
+{
+    "id":"2",
+    "name":"Claudia Solera Solana",
+    "email":"claudiasolera@email.com",
+    "enrollmentDate":"2025-10-05",
+    "active":true,
+    "level":"beginner"
+}
+
+
+###
+// Listar todos los estudiantes
+GET {{apiUrl}}
+
+
+###
+// Listar estudiante por ID
+GET {{apiUrl}}/3
+
+
+###
+// Filtrar estudiantes activos
+GET {{apiUrl}}?active=true
+
+
+###
+// Filtrar estudiantes por nivel
+GET {{apiUrl}}?level=beginner
+
+
+###
+// Actualizar estudiante completo (PUT)
+PUT {{apiUrl}}/2
+Content-Type: application/json
+
+{
+    "id":"2",
+    "name":"María García López",
+    "email":"maria.garcia@email.com",
+    "enrollmentDate":"2024-10-10",
+    "active":false,
+    "level":"advanced"
+}
+
+
+###
+// Actualizar campo específico
+PATCH {{apiUrl}}/2
+Content-Type: application/json
+
+{
+    "level": "beginner"
+}
+
+
+###
+// Eliminar estudiante
+DELETE {{apiUrl}}/8
