@@ -1,0 +1,19 @@
+{
+  "name": "manual-http-claudiass",
+  "version": "1.0.0",
+  "description": "Manual CRUD de gestión de estudiantes mediante peticiones HTTP a una API local simulada con json-server, usando cURL, Thunder Client y REST Client",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:up": "json-server --watch src/db/db.json --port 4000",
+    "crud:curl": "node src/crud-curl.js",
+    "validate": "bash scripts/validate.sh"
+  },
+  "author": "Claudia",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "json-server": "^1.0.0-beta.3"
+  }
+}
