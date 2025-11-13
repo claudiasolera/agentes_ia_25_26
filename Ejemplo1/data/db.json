@@ -1,0 +1,94 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Software Engineering",
+      "published_year": 2008,
+      "pages": 464,
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt & David Thomas",
+      "category": "Software Engineering",
+      "published_year": 1999,
+      "pages": 352,
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "category": "JavaScript",
+      "published_year": 2008,
+      "pages": 176,
+      "available": false
+    },
+    {
+      "id": 4,
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "category": "JavaScript",
+      "published_year": 2018,
+      "pages": 472,
+      "available": true
+    },
+    {
+      "id": 5,
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "category": "Python",
+      "published_year": 2019,
+      "pages": 544,
+      "available": true
+    },
+    {
+      "id": 6,
+      "title": "Effective Java",
+      "author": "Joshua Bloch",
+      "category": "Java",
+      "published_year": 2018,
+      "pages": 416,
+      "available": false
+    },
+    {
+      "id": 7,
+      "title": "Learning SQL",
+      "author": "Alan Beaulieu",
+      "category": "Databases",
+      "published_year": 2009,
+      "pages": 338,
+      "available": true
+    },
+    {
+      "id": 8,
+      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "category": "Software Engineering",
+      "published_year": 1994,
+      "pages": 395,
+      "available": true
+    },
+    {
+      "id": 9,
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman & Elisabeth Robson",
+      "category": "Software Engineering",
+      "published_year": 2004,
+      "pages": 694,
+      "available": false
+    },
+    {
+      "id": 10,
+      "title": "Automate the Boring Stuff with Python",
+      "author": "Al Sweigart",
+      "category": "Python",
+      "published_year": 2019,
+      "pages": 592,
+      "available": true
+    }
+  ]
+}
